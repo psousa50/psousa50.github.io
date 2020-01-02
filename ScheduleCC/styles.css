@@ -5,14 +5,17 @@ h1 {
 
 h2 {
   text-align: center;
+  color: #444444;
 }
 
 p {
   text-align: center;
-  color: #444444;
+  color: #666666;
 }
 
 .body {
+  display: flex;
+  flex-direction: column;
   background-color: white;
 }
 
@@ -28,6 +31,7 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  padding: 20px;
 }
 
 .badge {
