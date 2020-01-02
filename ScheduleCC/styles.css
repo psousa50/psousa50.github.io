@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #444444;
+}
+
+.body {
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.badges {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.badge {
+  display: flex;
+  padding: 20px;
+}
